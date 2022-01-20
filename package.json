@@ -36,12 +36,12 @@
     "puppeteer-core": "^10.1.0"
   },
   "bugs": {
-    "url": "https://github.com/alixaxel/chrome-aws-lambda/issues"
+    "url": "https://github.com/namekman/chrome-aws-lambda/issues"
   },
-  "homepage": "https://github.com/alixaxel/chrome-aws-lambda",
+  "homepage": "https://github.com/namekman/chrome-aws-lambda",
   "repository": {
     "type": "git",
-    "url": "git://github.com/alixaxel/chrome-aws-lambda.git"
+    "url": "git://github.com/namekman/chrome-aws-lambda.git"
   },
   "keywords": [
     "aws",

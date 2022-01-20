@@ -196,7 +196,7 @@ class Chromium {
    */
   static get puppeteer(): PuppeteerNode {
     for (const overload of ['Browser', 'BrowserContext', 'ElementHandle', 'FrameManager', 'Page']) {
-      require(`${__dirname}/puppeteer/lib/${overload}`);
+      require(`./puppeteer/lib/${overload}`);
     }
 
     try {

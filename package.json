@@ -1,7 +1,7 @@
 {
   "name": "chrome-aws-lambda-esbuild",
   "private": false,
-  "version": "10.1.0",
+  "version": "14.1.0",
   "author": {
     "name": "Alix Axel"
   },
@@ -15,7 +15,7 @@
     "typings"
   ],
   "engines": {
-    "node": ">= 10.16"
+    "node": ">= 14"
   },
   "scripts": {
     "build": "rimraf build && tsc -p tsconfig.json",
@@ -27,13 +27,13 @@
     "lambdafs": "^2.0.3"
   },
   "devDependencies": {
-    "puppeteer-core": "^10.1.0",
-    "typescript": "~4.0.3",
+    "puppeteer-core": "14.1.0",
+    "typescript": "4.6.4",
     "rimraf": "^3.0.2",
-    "@types/node": "^10.17.55"
+    "@types/node": "14.14.33"
   },
   "peerDependencies": {
-    "puppeteer-core": "^10.1.0"
+    "puppeteer-core": "14.1.0"
   },
   "bugs": {
     "url": "https://github.com/namekman/chrome-aws-lambda/issues"
